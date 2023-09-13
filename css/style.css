@@ -381,13 +381,17 @@ a:focus {
 }
 
 .work_section .work_container .box.b-2, .work_section .work_container .box.b-3, .work_section .work_container .box.b-6 {
-  width: 43.5%;
-
+  width: 50%;
+  transition: 0.5s;
 }
 
 .work_section .work_container .box.b-1, .work_section .work_container .box.b-4, .work_section .work_container .box.b-5 {
-  width: 56.5%;
+  width: 50%;
+  transition: 0.5s;
+}
 
+.work_section .work_container .box.b-1:hover, .work_section .work_container .box.b-2:hover, .work_section .work_container .box.b-3:hover, .work_section .work_container .box.b-4:hover, .work_section .work_container .box.b-5:hover, .work_section .work_container .box.b-6:hover{
+  transform: scale(1.1);
 }
 
 
